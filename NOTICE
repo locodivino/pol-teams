@@ -1,0 +1,15 @@
+# NOTICE — provenance des contenus
+
+Contenus de ce dépôt © YMR, sous licence MIT (voir LICENSE).
+
+Contenus **adaptés** de `milind-soni/openmausbot-teams` (MIT) :
+
+- `teams/suivi-boite-mail/` — adapté d'« Inbox Follow-up » (membres Keeper et
+  Nudge, skills follow-up-triage et specific-follow-up), réécrit en français
+  aux règles de Pol (l'envoi reste toujours carté).
+- `teams/veille-concurrents/` — adapté de « Competitor Watch » (membres Watcher
+  et Prism, skills change-detection et decision-brief), réécrit en français aux
+  règles de Pol.
+
+`teams/pol-essentiels/` reproduit les modèles intégrés de Pol
+(`superbot/apps/api/src/templates/bots.ts`, projet PolBot).

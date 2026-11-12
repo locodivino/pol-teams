@@ -1,0 +1,54 @@
+{
+  "format": "pol.catalog",
+  "version": 1,
+  "teams": [
+    {
+      "slug": "pol-essentiels",
+      "name": "Pol Essentiels",
+      "summary": "Les cinq modèles intégrés de Pol : direction, tri de boîte mail, veille, vérification et ton.",
+      "category": "Modèles",
+      "outcome": "Démarrer avec l'équipe de base de Pol, sans rien configurer.",
+      "setupMinutes": 2,
+      "featured": true,
+      "manifest": "teams/pol-essentiels/team.json",
+      "readme": "teams/pol-essentiels/README.md",
+      "members": 5,
+      "skills": [],
+      "requires": { "apps": [] }
+    },
+    {
+      "slug": "suivi-boite-mail",
+      "name": "Suivi de boîte mail",
+      "summary": "Repérer les conversations commerciales restées en suspens et préparer des relances fondées — jamais d'envoi automatique.",
+      "category": "Ventes",
+      "outcome": "Récupérer les fils où l'équipe doit la prochaine étape, avec des brouillons prêts à relire.",
+      "setupMinutes": 5,
+      "featured": true,
+      "manifest": "teams/suivi-boite-mail/team.json",
+      "readme": "teams/suivi-boite-mail/README.md",
+      "members": 2,
+      "skills": [
+        "teams/suivi-boite-mail/skills/tri-relances/SKILL.md",
+        "teams/suivi-boite-mail/skills/brouillon-relance/SKILL.md"
+      ],
+      "requires": { "apps": ["Gmail"] }
+    },
+    {
+      "slug": "veille-concurrents",
+      "name": "Veille concurrents",
+      "summary": "Surveiller les changements publics des concurrents et transformer les preuves en note de décision calme.",
+      "category": "Stratégie",
+      "outcome": "Savoir quels mouvements concurrentiels méritent une réponse et lesquels ignorer.",
+      "setupMinutes": 4,
+      "featured": true,
+      "manifest": "teams/veille-concurrents/team.json",
+      "readme": "teams/veille-concurrents/README.md",
+      "members": 2,
+      "skills": [
+        "teams/veille-concurrents/skills/detection-changements/SKILL.md",
+        "teams/veille-concurrents/skills/note-decision/SKILL.md"
+      ],
+      "requires": { "apps": [] }
+    }
+  ]
+}
